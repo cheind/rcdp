@@ -1,0 +1,2 @@
+dependencies are recorded when a line starts with '->' followed by a filename
+-> b.txt

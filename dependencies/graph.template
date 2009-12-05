@@ -1,0 +1,9 @@
+digraph g {
+  rankdir=LR;
+  node [fontname="Verdana", fonstize="8"]
+  <% self.each_vertex do |vertex| %> "<%=vertex%>" 
+  <% end %>
+  <% self.each_edge do |from, to| %>
+    "<%=from%>" -> "<%=to%>"
+  <% end %>
+}
